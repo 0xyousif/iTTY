@@ -1,0 +1,9 @@
+Package: com.0xyousif.itty
+Name: iTTY
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome application!
+Maintainer: 0xyousif
+Author: 0xyousif
+Section: Utilities
+Depends: firmware (>= 12.2) | ${LIBSWIFT}
