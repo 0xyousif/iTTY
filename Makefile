@@ -6,7 +6,7 @@ include $(THEOS)/makefiles/common.mk
 APPLICATION_NAME = iTTY
 
 iTTY_FILES = \
-	Sources/AppDelegate.swift 
+	Sources/AppDelegate.swift \
 	Sources/RootViewController.swift
 
 iTTY_FRAMEWORKS = UIKit CoreGraphics
