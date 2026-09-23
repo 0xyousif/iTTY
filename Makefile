@@ -1,5 +1,5 @@
 ARCHS = arm64
-TARGET := iphone:clang:latest:12.0
+TARGET := iphone:clang:latest:13.4
 INSTALL_TARGET_PROCESSES = iTTY
 
 include $(THEOS)/makefiles/common.mk
@@ -10,7 +10,8 @@ iTTY_FILES = \
 	src/main.m \
 	src/ittyRootViewController.m \
 	src/ittyAppDelegate.m \
-	src/pty.c
+	src/pty.c \
+	src/input.m
 
 iTTY_FRAMEWORKS = UIKit CoreGraphics
 iTTY_CFLAGS = -fobjc-arc
